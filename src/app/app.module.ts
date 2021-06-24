@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TodosComponent } from './todos/todos.component';
+import { TodosMultislotComponent } from './todos-multislot/todos-multislot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodosComponent
+    TodosComponent,
+    TodosMultislotComponent
   ],
   imports: [
     BrowserModule
